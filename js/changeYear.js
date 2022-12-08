@@ -1,0 +1,1 @@
+(()=>{let a=2022,[b,c]=$("a");b.addEventListener("click",()=>{a--,$("#yearLabel").innerText=String(a),renderer.render(a)}),c.addEventListener("click",()=>{a++,$("#yearLabel").innerText=String(a),renderer.render(a)}),renderer.onready=renderer.render.bind(renderer,a)})()
